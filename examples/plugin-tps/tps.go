@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
+	tp "github.com/lazyweb/teleport"
 )
 
 //go:generate go build $GOFILE

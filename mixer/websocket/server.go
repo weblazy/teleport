@@ -21,10 +21,10 @@ import (
 	"net/http"
 	"net/url"
 
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/mixer/websocket/jsonSubProto"
-	"github.com/henrylee2cn/teleport/mixer/websocket/pbSubProto"
-	ws "github.com/henrylee2cn/teleport/mixer/websocket/websocket"
+	tp "github.com/lazyweb/teleport"
+	"github.com/lazyweb/teleport/mixer/websocket/jsonSubProto"
+	"github.com/lazyweb/teleport/mixer/websocket/pbSubProto"
+	ws "github.com/lazyweb/teleport/mixer/websocket/websocket"
 )
 
 // Server a websocket server

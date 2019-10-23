@@ -9,8 +9,8 @@ import (
 	"time"
 
 	proto "github.com/gogo/protobuf/proto"
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/examples/bench/msg"
+	tp "github.com/lazyweb/teleport"
+	"github.com/lazyweb/teleport/examples/bench/msg"
 	"github.com/montanaflynn/stats"
 )
 

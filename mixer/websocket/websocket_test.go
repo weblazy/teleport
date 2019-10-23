@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
-	ws "github.com/henrylee2cn/teleport/mixer/websocket"
-	"github.com/henrylee2cn/teleport/mixer/websocket/jsonSubProto"
-	"github.com/henrylee2cn/teleport/plugin/auth"
+	tp "github.com/lazyweb/teleport"
+	ws "github.com/lazyweb/teleport/mixer/websocket"
+	"github.com/lazyweb/teleport/mixer/websocket/jsonSubProto"
+	"github.com/lazyweb/teleport/plugin/auth"
 )
 
 type Arg struct {

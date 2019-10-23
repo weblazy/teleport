@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/xfer/gzip"
+	tp "github.com/lazyweb/teleport"
+	"github.com/lazyweb/teleport/xfer/gzip"
 )
 
 func TestRawProto(t *testing.T) {

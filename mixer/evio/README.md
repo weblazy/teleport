@@ -17,7 +17,7 @@ It makes direct [epoll](https://en.wikipedia.org/wiki/Epoll) and [kqueue](https:
 
 ### Usage
 	
-`import "github.com/henrylee2cn/teleport/mixer/evio"`
+`import "github.com/lazyweb/teleport/mixer/evio"`
 
 #### Test
 
@@ -28,8 +28,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/mixer/evio"
+	tp "github.com/lazyweb/teleport"
+	"github.com/lazyweb/teleport/mixer/evio"
 )
 
 func Test(t *testing.T) {

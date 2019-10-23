@@ -17,11 +17,11 @@ package websocket
 import (
 	"bytes"
 
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/mixer/websocket/jsonSubProto"
-	ws "github.com/henrylee2cn/teleport/mixer/websocket/websocket"
-	"github.com/henrylee2cn/teleport/socket"
-	"github.com/henrylee2cn/teleport/utils"
+	tp "github.com/lazyweb/teleport"
+	"github.com/lazyweb/teleport/mixer/websocket/jsonSubProto"
+	ws "github.com/lazyweb/teleport/mixer/websocket/websocket"
+	"github.com/lazyweb/teleport/socket"
+	"github.com/lazyweb/teleport/utils"
 )
 
 var defaultProto = jsonSubProto.NewJSONSubProtoFunc()

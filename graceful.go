@@ -26,7 +26,7 @@ import (
 	"github.com/henrylee2cn/goutil/errors"
 	"github.com/henrylee2cn/goutil/graceful"
 	"github.com/henrylee2cn/goutil/graceful/inherit_net"
-	"github.com/henrylee2cn/teleport/quic"
+	"github.com/lazyweb/teleport/quic"
 )
 
 var peers = struct {

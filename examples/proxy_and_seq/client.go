@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	tp "github.com/henrylee2cn/teleport"
-	"github.com/henrylee2cn/teleport/socket"
+	tp "github.com/lazyweb/teleport"
+	"github.com/lazyweb/teleport/socket"
 )
 
 //go:generate go build $GOFILE

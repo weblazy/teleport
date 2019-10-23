@@ -4,9 +4,9 @@ import (
 	"strconv"
 
 	"github.com/henrylee2cn/goutil"
-	"github.com/henrylee2cn/teleport/codec"
-	"github.com/henrylee2cn/teleport/socket"
-	"github.com/henrylee2cn/teleport/utils"
+	"github.com/lazyweb/teleport/codec"
+	"github.com/lazyweb/teleport/socket"
+	"github.com/lazyweb/teleport/utils"
 )
 
 // Message types

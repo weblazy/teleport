@@ -9,7 +9,7 @@ import (
 	"sync"
 
 	"github.com/henrylee2cn/goutil"
-	tp "github.com/henrylee2cn/teleport"
+	tp "github.com/lazyweb/teleport"
 	"github.com/tidwall/gjson"
 )
 

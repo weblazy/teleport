@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	tp "github.com/henrylee2cn/teleport"
+	tp "github.com/lazyweb/teleport"
 )
 
 type (
