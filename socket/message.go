@@ -25,9 +25,9 @@ import (
 
 	"github.com/henrylee2cn/goutil"
 	"github.com/henrylee2cn/goutil/status"
-	"github.com/lazyweb/teleport/codec"
-	"github.com/lazyweb/teleport/utils"
-	"github.com/lazyweb/teleport/xfer"
+	"github.com/weblazy/teleport/codec"
+	"github.com/weblazy/teleport/utils"
+	"github.com/weblazy/teleport/xfer"
 )
 
 type (

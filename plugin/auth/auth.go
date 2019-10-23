@@ -21,7 +21,7 @@ import (
 	"sync/atomic"
 
 	"github.com/henrylee2cn/goutil"
-	tp "github.com/lazyweb/teleport"
+	tp "github.com/weblazy/teleport"
 )
 
 // NewBearerPlugin creates a auth bearer plugin for client.

@@ -4,7 +4,7 @@ package ignorecase
 import (
 	"strings"
 
-	tp "github.com/lazyweb/teleport"
+	tp "github.com/weblazy/teleport"
 )
 
 // NewIgnoreCase Returns a ignoreCase plugin.

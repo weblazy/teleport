@@ -22,10 +22,10 @@ import (
 	"path"
 	"strings"
 
-	tp "github.com/lazyweb/teleport"
-	"github.com/lazyweb/teleport/mixer/websocket/jsonSubProto"
-	"github.com/lazyweb/teleport/mixer/websocket/pbSubProto"
-	ws "github.com/lazyweb/teleport/mixer/websocket/websocket"
+	tp "github.com/weblazy/teleport"
+	"github.com/weblazy/teleport/mixer/websocket/jsonSubProto"
+	"github.com/weblazy/teleport/mixer/websocket/pbSubProto"
+	ws "github.com/weblazy/teleport/mixer/websocket/websocket"
 )
 
 // Client a websocket client

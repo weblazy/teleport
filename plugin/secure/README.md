@@ -4,7 +4,7 @@ Package secure encrypting/decrypting the message body.
 
 ### Usage
 
-`import "github.com/lazyweb/teleport/plugin/secure"`
+`import "github.com/weblazy/teleport/plugin/secure"`
 
 Ciphertext struct:
 
@@ -16,8 +16,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/lazyweb/teleport"
-	"github.com/lazyweb/teleport/plugin/secure"
+	tp "github.com/weblazy/teleport"
+	"github.com/weblazy/teleport/plugin/secure"
 )
 
 type Arg struct {

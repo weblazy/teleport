@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"github.com/henrylee2cn/goutil/coarsetime"
-	tp "github.com/lazyweb/teleport"
+	tp "github.com/weblazy/teleport"
 )
 
 const (

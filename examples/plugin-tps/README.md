@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/lazyweb/teleport"
+	tp "github.com/weblazy/teleport"
 )
 
 type Call struct {

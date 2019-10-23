@@ -3,8 +3,8 @@ package main
 import (
 	"time"
 
-	tp "github.com/lazyweb/teleport"
-	"github.com/lazyweb/teleport/plugin/proxy"
+	tp "github.com/weblazy/teleport"
+	"github.com/weblazy/teleport/plugin/proxy"
 )
 
 //go:generate go build $GOFILE

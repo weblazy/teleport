@@ -28,9 +28,9 @@ import (
 	"time"
 
 	"github.com/henrylee2cn/goutil/pool"
-	"github.com/lazyweb/teleport/codec"
-	"github.com/lazyweb/teleport/socket"
-	"github.com/lazyweb/teleport/utils"
+	"github.com/weblazy/teleport/codec"
+	"github.com/weblazy/teleport/socket"
+	"github.com/weblazy/teleport/utils"
 )
 
 var (

@@ -4,7 +4,7 @@ Dynamically ignoring the case of path
 
 ### Usage
 
-`import "github.com/lazyweb/teleport/plugin/ignorecase"`
+`import "github.com/weblazy/teleport/plugin/ignorecase"`
 
 #### Test
 
@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/lazyweb/teleport"
-	"github.com/lazyweb/teleport/plugin/ignorecase"
+	tp "github.com/weblazy/teleport"
+	"github.com/weblazy/teleport/plugin/ignorecase"
 )
 
 type Home struct {

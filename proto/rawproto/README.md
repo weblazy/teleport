@@ -27,7 +27,7 @@ raw protocol format(Big Endian):
 
 ### Usage
 
-`import "github.com/lazyweb/teleport/proto/pbproto"`
+`import "github.com/weblazy/teleport/proto/pbproto"`
 
 #### Test
 
@@ -38,8 +38,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/lazyweb/teleport"
-	"github.com/lazyweb/teleport/xfer/gzip"
+	tp "github.com/weblazy/teleport"
+	"github.com/weblazy/teleport/xfer/gzip"
 )
 
 func TestRawProto(t *testing.T) {

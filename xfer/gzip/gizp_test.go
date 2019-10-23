@@ -3,8 +3,8 @@ package gzip_test
 import (
 	"testing"
 
-	"github.com/lazyweb/teleport/xfer"
-	"github.com/lazyweb/teleport/xfer/gzip"
+	"github.com/weblazy/teleport/xfer"
+	"github.com/weblazy/teleport/xfer/gzip"
 )
 
 func TestGzip(t *testing.T) {

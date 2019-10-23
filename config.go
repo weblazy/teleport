@@ -22,8 +22,8 @@ import (
 	"time"
 
 	"github.com/henrylee2cn/cfgo"
-	"github.com/lazyweb/teleport/codec"
-	"github.com/lazyweb/teleport/socket"
+	"github.com/weblazy/teleport/codec"
+	"github.com/weblazy/teleport/socket"
 )
 
 // PeerConfig peer config

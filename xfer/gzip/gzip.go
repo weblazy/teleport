@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"github.com/lazyweb/teleport/utils"
-	"github.com/lazyweb/teleport/xfer"
+	"github.com/weblazy/teleport/utils"
+	"github.com/weblazy/teleport/xfer"
 )
 
 var ids = map[byte]bool{}

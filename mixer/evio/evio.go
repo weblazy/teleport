@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	tp "github.com/lazyweb/teleport"
-	"github.com/lazyweb/teleport/mixer/evio/evio"
-	"github.com/lazyweb/teleport/utils"
+	tp "github.com/weblazy/teleport"
+	"github.com/weblazy/teleport/mixer/evio/evio"
+	"github.com/weblazy/teleport/utils"
 )
 
 // NewClient creates a evio client, equivalent to tp.NewPeer.

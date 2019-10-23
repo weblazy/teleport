@@ -4,7 +4,7 @@ Provides a integrity check transfer filter
 
 ### Usage
 
-`import "github.com/lazyweb/teleport/xfer/md5"`
+`import "github.com/weblazy/teleport/xfer/md5"`
 
 #### Test
 
@@ -15,9 +15,9 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/lazyweb/teleport"
-	"github.com/lazyweb/teleport/xfer"
-	"github.com/lazyweb/teleport/xfer/md5"
+	tp "github.com/weblazy/teleport"
+	"github.com/weblazy/teleport/xfer"
+	"github.com/weblazy/teleport/xfer/md5"
 )
 
 func TestSeparate(t *testing.T) {

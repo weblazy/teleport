@@ -23,7 +23,7 @@ import (
 	"sync"
 
 	"github.com/henrylee2cn/goutil"
-	"github.com/lazyweb/teleport/utils"
+	"github.com/weblazy/teleport/utils"
 )
 
 type (

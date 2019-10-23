@@ -6,7 +6,7 @@ import (
 	"crypto/md5"
 	"errors"
 
-	"github.com/lazyweb/teleport/xfer"
+	"github.com/weblazy/teleport/xfer"
 )
 
 // Reg registers a md5 checker filter for transfer.

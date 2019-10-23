@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/lazyweb/teleport"
-	"github.com/lazyweb/teleport/plugin/ignorecase"
+	tp "github.com/weblazy/teleport"
+	"github.com/weblazy/teleport/plugin/ignorecase"
 )
 
 type Home struct {

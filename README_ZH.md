@@ -1,4 +1,4 @@
-# Teleport [![GitHub release](https://img.shields.io/github/release/lazyweb/teleport.svg?style=flat-square)](https://github.com/lazyweb/teleport/releases) [![report card](https://goreportcard.com/badge/github.com/lazyweb/teleport?style=flat-square)](http://goreportcard.com/report/lazyweb/teleport) [![github issues](https://img.shields.io/github/issues/lazyweb/teleport.svg?style=flat-square)](https://github.com/lazyweb/teleport/issues?q=is%3Aopen+is%3Aissue) [![github closed issues](https://img.shields.io/github/issues-closed-raw/lazyweb/teleport.svg?style=flat-square)](https://github.com/lazyweb/teleport/issues?q=is%3Aissue+is%3Aclosed) [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](http://godoc.org/github.com/lazyweb/teleport) [![view examples](https://img.shields.io/badge/learn%20by-examples-00BCD4.svg?style=flat-square)](https://github.com/lazyweb/teleport/tree/master/examples)
+# Teleport [![GitHub release](https://img.shields.io/github/release/weblazy/teleport.svg?style=flat-square)](https://github.com/weblazy/teleport/releases) [![report card](https://goreportcard.com/badge/github.com/weblazy/teleport?style=flat-square)](http://goreportcard.com/report/weblazy/teleport) [![github issues](https://img.shields.io/github/issues/weblazy/teleport.svg?style=flat-square)](https://github.com/weblazy/teleport/issues?q=is%3Aopen+is%3Aissue) [![github closed issues](https://img.shields.io/github/issues-closed-raw/weblazy/teleport.svg?style=flat-square)](https://github.com/weblazy/teleport/issues?q=is%3Aissue+is%3Aclosed) [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](http://godoc.org/github.com/weblazy/teleport) [![view examples](https://img.shields.io/badge/learn%20by-examples-00BCD4.svg?style=flat-square)](https://github.com/weblazy/teleport/tree/master/examples)
 <!-- [![view Go网络编程群](https://img.shields.io/badge/官方QQ群-Go网络编程(42730308)-27a5ea.svg?style=flat-square)](http://jq.qq.com/?_wv=1027&k=fzi4p1) -->
 
 
@@ -7,7 +7,7 @@ Teleport 是一个通用、高效、灵活的Socket框架。
 可用于 Peer-Peer 对等通信、RPC、长连接网关、微服务、推送服务，游戏服务等领域。
 
 
-![Teleport-Framework](https://github.com/lazyweb/teleport/raw/master/doc/teleport_module_diagram.png)
+![Teleport-Framework](https://github.com/weblazy/teleport/raw/master/doc/teleport_module_diagram.png)
 
 
 ## 性能测试
@@ -59,32 +59,32 @@ Teleport 是一个通用、高效、灵活的Socket框架。
 
 - CPU耗时火焰图 teleport/socket
 
-![tp_socket_profile_torch](https://github.com/lazyweb/teleport/raw/master/doc/tp_socket_profile_torch.png)
+![tp_socket_profile_torch](https://github.com/weblazy/teleport/raw/master/doc/tp_socket_profile_torch.png)
 
-**[svg file](https://github.com/lazyweb/teleport/raw/master/doc/tp_socket_profile_torch.svg)**
+**[svg file](https://github.com/weblazy/teleport/raw/master/doc/tp_socket_profile_torch.svg)**
 
 - 堆栈信息火焰图 teleport/socket
 
-![tp_socket_heap_torch](https://github.com/lazyweb/teleport/raw/master/doc/tp_socket_heap_torch.png)
+![tp_socket_heap_torch](https://github.com/weblazy/teleport/raw/master/doc/tp_socket_heap_torch.png)
 
-**[svg file](https://github.com/lazyweb/teleport/raw/master/doc/tp_socket_heap_torch.svg)**
+**[svg file](https://github.com/weblazy/teleport/raw/master/doc/tp_socket_heap_torch.svg)**
 
 
 ## 版本
 
 | 版本   | 状态      | 分支                                       |
 | ---- | ------- | ---------------------------------------- |
-| v6      | release | [master](https://github.com/lazyweb/teleport/tree/master) |
-| v5      | release | [v5](https://github.com/lazyweb/teleport/tree/v5) |
-| v4      | release | [v4](https://github.com/lazyweb/teleport/tree/v4) |
-| v3      | release | [v3](https://github.com/lazyweb/teleport/tree/v3) |
-| v2      | release | [v2](https://github.com/lazyweb/teleport/tree/v2) |
-| v1      | release | [v1](https://github.com/lazyweb/teleport/tree/v1) |
+| v6      | release | [master](https://github.com/weblazy/teleport/tree/master) |
+| v5      | release | [v5](https://github.com/weblazy/teleport/tree/v5) |
+| v4      | release | [v4](https://github.com/weblazy/teleport/tree/v4) |
+| v3      | release | [v3](https://github.com/weblazy/teleport/tree/v3) |
+| v2      | release | [v2](https://github.com/weblazy/teleport/tree/v2) |
+| v1      | release | [v1](https://github.com/weblazy/teleport/tree/v1) |
 
 ## 安装
 
 ```sh
-go get -u -f github.com/lazyweb/teleport
+go get -u -f github.com/weblazy/teleport
 ```
 
 ## 特性
@@ -158,7 +158,7 @@ import (
 	"fmt"
 	"time"
 
-	tp "github.com/lazyweb/teleport"
+	tp "github.com/weblazy/teleport"
 )
 
 func main() {
@@ -222,7 +222,7 @@ package main
 import (
 	"time"
 
-	tp "github.com/lazyweb/teleport"
+	tp "github.com/weblazy/teleport"
 )
 
 func main() {
@@ -265,7 +265,7 @@ func (p *Push) Status(arg *string) *tp.Status {
 }
 ```
 
-[更多示例](https://github.com/lazyweb/teleport/blob/master/examples)
+[更多示例](https://github.com/weblazy/teleport/blob/master/examples)
 
 
 ## 用法
@@ -546,48 +546,48 @@ type PeerConfig struct {
 ### 编解码器
 | package                                  | import                                   | description                  |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------- |
-| [json](https://github.com/lazyweb/teleport/blob/master/codec/json_codec.go) | `"github.com/lazyweb/teleport/codec"` | JSON codec(teleport own)     |
-| [protobuf](https://github.com/lazyweb/teleport/blob/master/codec/protobuf_codec.go) | `"github.com/lazyweb/teleport/codec"` | Protobuf codec(teleport own) |
-| [thrift](https://github.com/lazyweb/teleport/blob/master/codec/thrift_codec.go) | `"github.com/lazyweb/teleport/codec"` | Form(url encode) codec(teleport own)   |
-| [xml](https://github.com/lazyweb/teleport/blob/master/codec/xml_codec.go) | `"github.com/lazyweb/teleport/codec"` | Form(url encode) codec(teleport own)   |
-| [plain](https://github.com/lazyweb/teleport/blob/master/codec/plain_codec.go) | `"github.com/lazyweb/teleport/codec"` | Plain text codec(teleport own)   |
-| [form](https://github.com/lazyweb/teleport/blob/master/codec/form_codec.go) | `"github.com/lazyweb/teleport/codec"` | Form(url encode) codec(teleport own)   |
+| [json](https://github.com/weblazy/teleport/blob/master/codec/json_codec.go) | `"github.com/weblazy/teleport/codec"` | JSON codec(teleport own)     |
+| [protobuf](https://github.com/weblazy/teleport/blob/master/codec/protobuf_codec.go) | `"github.com/weblazy/teleport/codec"` | Protobuf codec(teleport own) |
+| [thrift](https://github.com/weblazy/teleport/blob/master/codec/thrift_codec.go) | `"github.com/weblazy/teleport/codec"` | Form(url encode) codec(teleport own)   |
+| [xml](https://github.com/weblazy/teleport/blob/master/codec/xml_codec.go) | `"github.com/weblazy/teleport/codec"` | Form(url encode) codec(teleport own)   |
+| [plain](https://github.com/weblazy/teleport/blob/master/codec/plain_codec.go) | `"github.com/weblazy/teleport/codec"` | Plain text codec(teleport own)   |
+| [form](https://github.com/weblazy/teleport/blob/master/codec/form_codec.go) | `"github.com/weblazy/teleport/codec"` | Form(url encode) codec(teleport own)   |
 
 ### 插件
 
 | package                                  | import                                   | description                              |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-| [auth](https://github.com/lazyweb/teleport/tree/master/plugin/auth) | `"github.com/lazyweb/teleport/plugin/auth"` | An auth plugin for verifying peer at the first time |
-| [binder](https://github.com/lazyweb/teleport/tree/master/plugin/binder) | `"github.com/lazyweb/teleport/plugin/binder"` | Parameter Binding Verification for Struct Handler |
-| [heartbeat](https://github.com/lazyweb/teleport/tree/master/plugin/heartbeat) | `"github.com/lazyweb/teleport/plugin/heartbeat"` | A generic timing heartbeat plugin        |
-| [proxy](https://github.com/lazyweb/teleport/tree/master/plugin/proxy) | `"github.com/lazyweb/teleport/plugin/proxy"` | A proxy plugin for handling unknown calling or pushing |
-[secure](https://github.com/lazyweb/teleport/tree/master/plugin/secure)|`"github.com/lazyweb/teleport/plugin/secure"` | Encrypting/decrypting the message body
-[overloader](https://github.com/lazyweb/teleport/tree/master/plugin/overloader)|`"github.com/lazyweb/teleport/plugin/overloader"` | A plugin to protect teleport from overload
+| [auth](https://github.com/weblazy/teleport/tree/master/plugin/auth) | `"github.com/weblazy/teleport/plugin/auth"` | An auth plugin for verifying peer at the first time |
+| [binder](https://github.com/weblazy/teleport/tree/master/plugin/binder) | `"github.com/weblazy/teleport/plugin/binder"` | Parameter Binding Verification for Struct Handler |
+| [heartbeat](https://github.com/weblazy/teleport/tree/master/plugin/heartbeat) | `"github.com/weblazy/teleport/plugin/heartbeat"` | A generic timing heartbeat plugin        |
+| [proxy](https://github.com/weblazy/teleport/tree/master/plugin/proxy) | `"github.com/weblazy/teleport/plugin/proxy"` | A proxy plugin for handling unknown calling or pushing |
+[secure](https://github.com/weblazy/teleport/tree/master/plugin/secure)|`"github.com/weblazy/teleport/plugin/secure"` | Encrypting/decrypting the message body
+[overloader](https://github.com/weblazy/teleport/tree/master/plugin/overloader)|`"github.com/weblazy/teleport/plugin/overloader"` | A plugin to protect teleport from overload
 
 ### 协议
 
 | package                                  | import                                   | description                              |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-| [rawproto](https://github.com/lazyweb/teleport/tree/master/proto/rawproto) | `"github.com/lazyweb/teleport/proto/rawproto` | 一个高性能的通信协议（teleport默认）|
-| [jsonproto](https://github.com/lazyweb/teleport/tree/master/proto/jsonproto) | `"github.com/lazyweb/teleport/proto/jsonproto"` | JSON 格式的通信协议     |
-| [pbproto](https://github.com/lazyweb/teleport/tree/master/proto/pbproto) | `"github.com/lazyweb/teleport/proto/pbproto"` | Protobuf 格式的通信协议     |
-| [thriftproto](https://github.com/lazyweb/teleport/tree/master/proto/thriftproto) | `"github.com/lazyweb/teleport/proto/thriftproto"` | Thrift 格式的通信协议     |
-| [httproto](https://github.com/lazyweb/teleport/tree/master/proto/httproto) | `"github.com/lazyweb/teleport/proto/httproto"` | HTTP 格式的通信协议     |
+| [rawproto](https://github.com/weblazy/teleport/tree/master/proto/rawproto) | `"github.com/weblazy/teleport/proto/rawproto` | 一个高性能的通信协议（teleport默认）|
+| [jsonproto](https://github.com/weblazy/teleport/tree/master/proto/jsonproto) | `"github.com/weblazy/teleport/proto/jsonproto"` | JSON 格式的通信协议     |
+| [pbproto](https://github.com/weblazy/teleport/tree/master/proto/pbproto) | `"github.com/weblazy/teleport/proto/pbproto"` | Protobuf 格式的通信协议     |
+| [thriftproto](https://github.com/weblazy/teleport/tree/master/proto/thriftproto) | `"github.com/weblazy/teleport/proto/thriftproto"` | Thrift 格式的通信协议     |
+| [httproto](https://github.com/weblazy/teleport/tree/master/proto/httproto) | `"github.com/weblazy/teleport/proto/httproto"` | HTTP 格式的通信协议     |
 
 ### 传输过滤器
 
 | package                                  | import                                   | description                              |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-| [gzip](https://github.com/lazyweb/teleport/tree/master/xfer/gzip) | `"github.com/lazyweb/teleport/xfer/gzip"` | Gzip(teleport own)                       |
-| [md5](https://github.com/lazyweb/teleport/tree/master/xfer/md5) | `"github.com/lazyweb/teleport/xfer/md5"` | Provides a integrity check transfer filter |
+| [gzip](https://github.com/weblazy/teleport/tree/master/xfer/gzip) | `"github.com/weblazy/teleport/xfer/gzip"` | Gzip(teleport own)                       |
+| [md5](https://github.com/weblazy/teleport/tree/master/xfer/md5) | `"github.com/weblazy/teleport/xfer/md5"` | Provides a integrity check transfer filter |
 
 ### 其他模块
 
 | package                                  | import                                   | description                              |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
-| [multiclient](https://github.com/lazyweb/teleport/tree/master/mixer/multiclient) | `"github.com/lazyweb/teleport/mixer/multiclient"` | Higher throughput client connection pool when transferring large messages (such as downloading files) |
-| [websocket](https://github.com/lazyweb/teleport/tree/master/mixer/websocket) | `"github.com/lazyweb/teleport/mixer/websocket"` | Makes the Teleport framework compatible with websocket protocol as specified in RFC 6455 |
-| [evio](https://github.com/lazyweb/teleport/tree/master/mixer/evio) | `"github.com/lazyweb/teleport/mixer/evio"` | A fast event-loop networking framework that uses the teleport API layer |
+| [multiclient](https://github.com/weblazy/teleport/tree/master/mixer/multiclient) | `"github.com/weblazy/teleport/mixer/multiclient"` | Higher throughput client connection pool when transferring large messages (such as downloading files) |
+| [websocket](https://github.com/weblazy/teleport/tree/master/mixer/websocket) | `"github.com/weblazy/teleport/mixer/websocket"` | Makes the Teleport framework compatible with websocket protocol as specified in RFC 6455 |
+| [evio](https://github.com/weblazy/teleport/tree/master/mixer/evio) | `"github.com/weblazy/teleport/mixer/evio"` | A fast event-loop networking framework that uses the teleport API layer |
 | [html](https://github.com/xiaoenai/tp-micro/tree/master/helper/mod-html) | `html "github.com/xiaoenai/tp-micro/helper/mod-html"` | HTML render for http client |
 
 ## 基于Teleport的项目
@@ -610,4 +610,4 @@ type PeerConfig struct {
 
 ## 开源协议
 
-Teleport 项目采用商业应用友好的 [Apache2.0](https://github.com/lazyweb/teleport/raw/master/LICENSE) 协议发布
+Teleport 项目采用商业应用友好的 [Apache2.0](https://github.com/weblazy/teleport/raw/master/LICENSE) 协议发布

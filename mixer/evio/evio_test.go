@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/lazyweb/teleport"
-	"github.com/lazyweb/teleport/mixer/evio"
+	tp "github.com/weblazy/teleport"
+	"github.com/weblazy/teleport/mixer/evio"
 )
 
 func Test(t *testing.T) {

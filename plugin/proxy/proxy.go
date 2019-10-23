@@ -24,7 +24,7 @@ import (
 	"sync"
 
 	"github.com/henrylee2cn/goutil"
-	tp "github.com/lazyweb/teleport"
+	tp "github.com/weblazy/teleport"
 )
 
 // NewPlugin creates a proxy plugin for handling unknown calling and pushing.

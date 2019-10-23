@@ -3,7 +3,7 @@ package socket
 import (
 	"testing"
 
-	"github.com/lazyweb/teleport/xfer/gzip"
+	"github.com/weblazy/teleport/xfer/gzip"
 )
 
 func TestMessageString(t *testing.T) {

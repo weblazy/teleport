@@ -3,7 +3,7 @@ package tp_test
 import (
 	"testing"
 
-	tp "github.com/lazyweb/teleport"
+	tp "github.com/weblazy/teleport"
 )
 
 func TestHTTPServiceMethodMapper(t *testing.T) {

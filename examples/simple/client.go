@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	tp "github.com/lazyweb/teleport"
+	tp "github.com/weblazy/teleport"
 )
 
 //go:generate go build $GOFILE

@@ -22,12 +22,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lazyweb/teleport/quic"
+	"github.com/weblazy/teleport/quic"
 
 	"github.com/henrylee2cn/goutil"
 	"github.com/henrylee2cn/goutil/coarsetime"
 	"github.com/henrylee2cn/goutil/errors"
-	"github.com/lazyweb/teleport/codec"
+	"github.com/weblazy/teleport/codec"
 )
 
 type (

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/lazyweb/teleport"
+	tp "github.com/weblazy/teleport"
 )
 
 func panic_call(tp.CallCtx, *interface{}) (interface{}, *tp.Status) {

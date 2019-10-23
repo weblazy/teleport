@@ -8,9 +8,9 @@ import (
 	"runtime"
 	"time"
 
-	tp "github.com/lazyweb/teleport"
-	"github.com/lazyweb/teleport/examples/bench/msg"
-	"github.com/lazyweb/teleport/mixer/evio"
+	tp "github.com/weblazy/teleport"
+	"github.com/weblazy/teleport/examples/bench/msg"
+	"github.com/weblazy/teleport/mixer/evio"
 )
 
 //go:generate go build $GOFILE

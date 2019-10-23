@@ -16,7 +16,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/lazyweb/teleport/mixer/evio/evio/internal"
+	"github.com/weblazy/teleport/mixer/evio/evio/internal"
 	reuseport "github.com/kavu/go_reuseport"
 )
 

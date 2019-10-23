@@ -46,15 +46,15 @@ A concise, powerful and high-performance connection socket.
 
 - Profile torch of teleport/socket
 
-![tp_socket_profile_torch](https://github.com/lazyweb/teleport/raw/master/doc/tp_socket_profile_torch.png)
+![tp_socket_profile_torch](https://github.com/weblazy/teleport/raw/master/doc/tp_socket_profile_torch.png)
 
-**[svg file](https://github.com/lazyweb/teleport/raw/master/doc/tp_socket_profile_torch.svg)**
+**[svg file](https://github.com/weblazy/teleport/raw/master/doc/tp_socket_profile_torch.svg)**
 
 - Heap torch of teleport/socket
 
-![tp_socket_heap_torch](https://github.com/lazyweb/teleport/raw/master/doc/tp_socket_heap_torch.png)
+![tp_socket_heap_torch](https://github.com/weblazy/teleport/raw/master/doc/tp_socket_heap_torch.png)
 
-**[svg file](https://github.com/lazyweb/teleport/raw/master/doc/tp_socket_heap_torch.svg)**
+**[svg file](https://github.com/weblazy/teleport/raw/master/doc/tp_socket_heap_torch.svg)**
 
 ## Example
 
@@ -67,8 +67,8 @@ import (
     "log"
     "net"
 
-    "github.com/lazyweb/teleport/socket"
-    "github.com/lazyweb/teleport/socket/example/pb"
+    "github.com/weblazy/teleport/socket"
+    "github.com/weblazy/teleport/socket/example/pb"
 )
 
 //go:generate go build $GOFILE
@@ -131,9 +131,9 @@ import (
     "log"
     "net"
 
-    "github.com/lazyweb/teleport/codec"
-    "github.com/lazyweb/teleport/socket"
-    "github.com/lazyweb/teleport/socket/example/pb"
+    "github.com/weblazy/teleport/codec"
+    "github.com/weblazy/teleport/socket"
+    "github.com/weblazy/teleport/socket/example/pb"
 )
 
 //go:generate go build $GOFILE
@@ -178,7 +178,7 @@ func main() {
 }
 ```
 
-[More Examples](https://github.com/lazyweb/teleport/tree/master/socket/example)
+[More Examples](https://github.com/weblazy/teleport/tree/master/socket/example)
 
 ## Keyworks
 

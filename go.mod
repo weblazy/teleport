@@ -1,4 +1,4 @@
-module github.com/lazyweb/teleport
+module github.com/weblazy/teleport
 
 require (
 	git.apache.org/thrift.git v0.0.0-20190629060710-d9019fc5a4a2

@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"time"
 
-	tp "github.com/lazyweb/teleport"
-	"github.com/lazyweb/teleport/examples/bench/msg"
+	tp "github.com/weblazy/teleport"
+	"github.com/weblazy/teleport/examples/bench/msg"
 )
 
 //go:generate go build $GOFILE

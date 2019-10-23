@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/henrylee2cn/cfgo"
-	tp "github.com/lazyweb/teleport"
+	tp "github.com/weblazy/teleport"
 )
 
 //go:generate go build $GOFILE

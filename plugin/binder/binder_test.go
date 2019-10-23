@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/lazyweb/teleport"
-	"github.com/lazyweb/teleport/plugin/binder"
+	tp "github.com/weblazy/teleport"
+	"github.com/weblazy/teleport/plugin/binder"
 )
 
 type (

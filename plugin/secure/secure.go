@@ -20,8 +20,8 @@ import (
 	"fmt"
 
 	"github.com/henrylee2cn/goutil"
-	tp "github.com/lazyweb/teleport"
-	"github.com/lazyweb/teleport/utils"
+	tp "github.com/weblazy/teleport"
+	"github.com/weblazy/teleport/utils"
 )
 
 const (

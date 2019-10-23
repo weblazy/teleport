@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/lazyweb/teleport"
+	tp "github.com/weblazy/teleport"
 	"github.com/stretchr/testify/assert"
 )
 
