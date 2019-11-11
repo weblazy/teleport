@@ -16,8 +16,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/weblazy/teleport/mixer/evio/evio/internal"
 	reuseport "github.com/kavu/go_reuseport"
+	"github.com/weblazy/teleport/mixer/evio/evio/internal"
 )
 
 type conn struct {

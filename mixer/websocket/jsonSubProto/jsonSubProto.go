@@ -9,8 +9,8 @@ import (
 	"sync"
 
 	"github.com/henrylee2cn/goutil"
-	tp "github.com/weblazy/teleport"
 	"github.com/tidwall/gjson"
+	tp "github.com/weblazy/teleport"
 )
 
 // NewJSONSubProtoFunc is creation function of JSON socket protocol.

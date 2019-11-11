@@ -9,9 +9,9 @@ import (
 	"time"
 
 	proto "github.com/gogo/protobuf/proto"
+	"github.com/montanaflynn/stats"
 	tp "github.com/weblazy/teleport"
 	"github.com/weblazy/teleport/examples/bench/msg"
-	"github.com/montanaflynn/stats"
 )
 
 //go:generate go build $GOFILE

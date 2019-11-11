@@ -9,9 +9,9 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/montanaflynn/stats"
 	tp "github.com/weblazy/teleport"
 	"github.com/weblazy/teleport/examples/bench/msg"
-	"github.com/montanaflynn/stats"
 )
 
 //go:generate go build $GOFILE

@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	tp "github.com/weblazy/teleport"
 	"github.com/stretchr/testify/assert"
+	tp "github.com/weblazy/teleport"
 )
 
 type Home struct {
