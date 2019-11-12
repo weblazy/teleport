@@ -111,8 +111,12 @@ type (
 		Peer() Peer
 		// ID returns the session id.
 		ID() string
-		//UID return the session uid
-		UID() string
+		//LoadUid return the session uid
+		LoadUid() string
+		//StoreUid return the session uid
+		StoreUid(string)
+		//CasUid return the session uid
+		CasUid(string) string
 		// LocalAddr returns the local network address.
 		LocalAddr() net.Addr
 		// RemoteAddr returns the remote network address.
@@ -126,8 +130,12 @@ type (
 	CtxSession interface {
 		// ID returns the session id.
 		ID() string
-		//UID return the session uid
-		UID() string
+		//LoadUid return the session uid
+		LoadUid() string
+		//StoreUid return the session uid
+		StoreUid(string)
+		//CasUid return the session uid
+		CasUid(string) string
 		// LocalAddr returns the local network address.
 		LocalAddr() net.Addr
 		// RemoteAddr returns the remote network address.
@@ -334,24 +342,24 @@ func (s *session) SetID(newID string) {
 
 // LoadUid returns the session uid.
 func (s *session) LoadUid() string {
-	return *(*string)atomic.LoadPointer((*unsafe.Pointer) unsafe.Pointer(&s.uid))
+	return *(*string)(atomic.LoadPointer(&(unsafe.Pointer(&s.uid))))
 }
 
 // StoreUid sets the session uid.
 func (s *session) StoreUid(newUid string) {
-	atomic.StorePointer((*unsafe.Pointer) unsafe.Pointer(&s.uid), unsafe.Pointer(newUid))
+	atomic.StorePointer(&(unsafe.Pointer(&s.uid)), unsafe.Pointer(&newUid))
 }
 
 // CasUid sets the session uid and return oldUid
 func (s *session) CasUid(newUid string) string {
-	newValue := unsafe.Pointer(newUid)
+	newValue := unsafe.Pointer(&newUid)
 	for {
-		oldValue := atomic.LoadPointer((*unsafe.Pointer) unsafe.Pointer(&s.uid))
-		if atomic.CompareAndSwapPointer(atomic.LoadPointer((*unsafe.Pointer) unsafe.Pointer(&s.uid), oldValue, newValue) {
+		oldValue := atomic.LoadPointer(&(unsafe.Pointer(&s.uid)))
+		if atomic.CompareAndSwapPointer(&(unsafe.Pointer(&s.uid)), oldValue, newValue) {
 			break
 		}
 	}
-	return *(*string)oldValue
+	return *(*string)(oldValue)
 }
 
 // ControlFD invokes f on the underlying connection's file
