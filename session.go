@@ -334,7 +334,7 @@ func (s *session) SetID(newID string) {
 
 // LoadUid returns the session uid.
 func (s *session) LoadUid() string {
-	return (*string)atomic.LoadPointer((*unsafe.Pointer) unsafe.Pointer(&s.uid))
+	return *(*string)atomic.LoadPointer((*unsafe.Pointer) unsafe.Pointer(&s.uid))
 }
 
 // StoreUid sets the session uid.
@@ -343,7 +343,7 @@ func (s *session) StoreUid(newUid string) {
 }
 
 // CasUid sets the session uid and return oldUid
-func (s *session) CasUid(newUid string) (oldUid string) {
+func (s *session) CasUid(newUid string) string {
 	newValue := unsafe.Pointer(newUid)
 	for {
 		oldValue := atomic.LoadPointer((*unsafe.Pointer) unsafe.Pointer(&s.uid))
@@ -351,7 +351,7 @@ func (s *session) CasUid(newUid string) (oldUid string) {
 			break
 		}
 	}
-	return (*string)oldValue
+	return *(*string)oldValue
 }
 
 // ControlFD invokes f on the underlying connection's file
